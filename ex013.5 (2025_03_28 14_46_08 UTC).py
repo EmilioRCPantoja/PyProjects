@@ -1,0 +1,2 @@
+p=float(input('digite o preço do produto: R$'))
+print('caso o valor de R${:.2f} seja pago a vista, será aplicado um desconto de 10%, e você pagará R${:.2f} \n porém caso seja parcelado de 2x será aplicado um aumento de 6% e você pagará R${:.2f}'.format(p, p-p*0.1, p+p*0.06))
